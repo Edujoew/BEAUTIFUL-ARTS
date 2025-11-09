@@ -1,0 +1,23 @@
+{
+  "name": "beautiful-arts-project",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Edujoew/BEAUTIFUL-ARTS#readme",
+  "bugs": {
+    "url": "https://github.com/Edujoew/BEAUTIFUL-ARTS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edujoew/BEAUTIFUL-ARTS.git"
+  },
+  "license": "ISC",
+  "author": "John Edwards",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
