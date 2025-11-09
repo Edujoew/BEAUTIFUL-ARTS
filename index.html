@@ -15,78 +15,72 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <style>
+        #home {
+            background-image: url(../BEAUTIFUL-ARTS-PROJECT/assets/Images/art\ homepage.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container py-2">
-        <a class="navbar-brand" href="#Home"></a>
-        <img
-          src="assets\Images\SVG images\logo.svg"
-          alt="logo"
-          class="img-fluid me-4"
-          width="40"
-        />
-        <button
-          class="navbar-toggler bg-warning border-none"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link active text-light"
-                aria-current="page"
-                href="#Home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#Gallery">Gallery</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-light"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#sponsorship">sponsorship</a>
-                </li>
-                <li><a class="dropdown-item" href="#about us">About us</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#Contact us"
-                    >Contact us here</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2 rounded-5"
-              type="search"
-              placeholder="Find art..."
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-warning rounded-5" type="submit">
-              Search
+     <nav class="navbar navbar-expand-lg bg-primary position-relative z-3">
+        <div class="container py-4">
+            <a class="navbar-brand" href="#home">
+                <img src="assets\Images\SVG images\logo.svg" alt="logo" class="img-fluid me-4" width="40" rcset="">
+            </a>
+            <button class="navbar-toggler bg-warning  rounded-5 border-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
             </button>
-          </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            more
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#sponsorship">Sponsorship</a></li>
+                            <li><a class="dropdown-item" href="#about-us">About US</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#contact-us">Contact US</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 rounded-5" type="search" placeholder=" Find art..."
+                        aria-label="Search" />
+                    <button class="btn btn-outline-warning rounded-5 px-4 py-2" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="min-vh-100">
+        <div class="position-absolute top-0 start-0 w-100 vh-100 bg-dark opacity-50 z-1"></div>
+        <div class="position-relative py-5 z-3">
+            <div class="container p-5">
+                <h1 class="display-1 fw-bold text-warning">Beautiful Arts Gallery</h1>
+                <h3 class="display-6 text-warning">Museum of Arts</h3>
+                <h5 class="fs-6 text-warning">a blend of modernand mideval ages</h5>
+                <p class="lead fs-2 fw-lighter text-light mt-5">Step into a realm where time intertwines, as the grand museum unveils its latest exhibition. Witness a captivating blend of modern-day marvels and the mystique of medieval ages, where sleek contemporary art installations stand in harmonious contrast with ancient tapestries and armor. Each gallery is a beautiful journey, inviting visitors to ponder the echoes of history and the boundless creativity of humanity across eras.</p>
+
+                <button type="button" class="btn  btn-lg btn-warning mt-4"> support us </button>
+            </div>
+
         </div>
       </div>
-    </nav>
+    </section>
   </body>
 </html>
